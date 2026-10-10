@@ -1,11 +1,13 @@
 # Global Macro Atlas
 
+Research project by [Sherif Morsi](https://github.com/shmorsi). For the separately developed local research terminal, see [ATLAS](https://github.com/shmorsi/atlas).
+
 **A PyTorch research system that reads the macro and geopolitical state of 198 countries and turns it into one global multi-asset portfolio, then tests whether the deep learning actually helps.**
 
-[![CI](https://github.com/OWNER/global-macro-atlas/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/global-macro-atlas/actions)
+[![CI](https://github.com/shmorsi/GLOBALMACROLOOK/actions/workflows/ci.yml/badge.svg)](https://github.com/shmorsi/GLOBALMACROLOOK/actions)
 ![Python](https://img.shields.io/badge/python-3.9%2B-3776ab) ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c) ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
-**[Open the interactive atlas →](https://OWNER.github.io/global-macro-atlas/)**
+**[Inspect the dashboard source →](https://github.com/shmorsi/GLOBALMACROLOOK/tree/main/docs)**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="reports/figures/hero_atlas_dark.png">
@@ -134,7 +136,7 @@ Each run's results are saved in `results/v1`, `results/v2` and `results/v3`.
 ## Quickstart
 
 ```bash
-git clone https://github.com/OWNER/global-macro-atlas && cd global-macro-atlas
+git clone https://github.com/shmorsi/GLOBALMACROLOOK && cd GLOBALMACROLOOK
 ./run.sh                 # venv + deps, download data, tests, train, backtest, build the site (~15 min on a laptop CPU)
 open docs/index.html
 ```
